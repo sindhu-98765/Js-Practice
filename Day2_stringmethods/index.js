@@ -19,10 +19,23 @@ console.log(name.endsWith("A")) //true               //=>endsWith()
 
 console.log(name.concat("GURRAM")) //MEGHANAGURRAM   //=>concat()  
 
-
+//        //
 
 let branch = "            CSE              "
 console.log(branch.trimStart()) //"CSE              "                                  //=>trimStart()
+
 console.log(branch.trimEnd()) //"            CSE"                                      //=>trimEnd()
 
 console.log(branch.trim()) //"CSE"                                                     //=>trim()
+
+
+                                  //                      //               
+let name = "Fullstack Masters";
+console.log(name.indexAt(i)); // 2
+console.log(name.lastIndexAt(l)); //3
+
+let sen = "Iam learning Frontend,I want to become a Frontend Developer";
+console.log(sen);
+console.log(sen.replace("Frontend","Fullstack")); //Iam learning Fullstack,I want to become a Frontend Developer
+console.log(sen.replaceAll("Frontend","Fullstack")); ////Iam learning Fullstack,I want to become a Fullstack Developer
+
