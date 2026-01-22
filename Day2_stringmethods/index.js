@@ -31,8 +31,8 @@ console.log(branch.trim()) //"CSE"                                              
 
                                   //                      //               
 let name = "Fullstack Masters";
-console.log(name.indexAt(i)); // 2
-console.log(name.lastIndexAt(l)); //3
+console.log(name.indexOf(i)); // 2
+console.log(name.lastIndexOf(l)); //3
 
 let sen = "Iam learning Frontend,I want to become a Frontend Developer";
 console.log(sen);
