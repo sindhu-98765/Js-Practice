@@ -62,4 +62,11 @@ if (1) console.log("Run");        // runs
     console.log(Boolean([]));        // true
     console.log(Boolean({}));      // true
     console.log(Boolean(function(){})); // true
+
     console.log(Boolean(true));      // true
+
+
+
+// My Insights
+Only 7 values are falsy, everything else is truthy
+Falsy values are: false, 0, -0, "", null, undefined, NaN.
