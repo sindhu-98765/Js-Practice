@@ -66,7 +66,25 @@ if (1) console.log("Run");        // runs
     console.log(Boolean(true));      // true
 
 
+//                     //
+1.if ("0") console.log("A");
+  Output: A
+  Because "0" is a non-empty string → truthy
+
+2.if ([]) console.log("B");
+  Output: B
+
+3.if ({}) console.log("C");
+ Output: C
+
+4.if (null == undefined) console.log("D");
+ Output: D
+
+5.if (NaN) console.log("E");
+  No output
+
 
 // My Insights
 Only 7 values are falsy, everything else is truthy
 Falsy values are: false, 0, -0, "", null, undefined, NaN.
+
