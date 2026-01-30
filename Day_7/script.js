@@ -39,3 +39,21 @@ let user = null;
 let userName = user || "Guest";
 
 console.log(`Welcome ${userName}`); // Output: "Welcome Guest"
+
+
+            && (AND) OPERATOR
+Rule (mirror of ||)
+
+//Returns the first falsy value
+// If all are truthy, returns the last value
+
+//Examples
+console.log(true && "JS");//Output: "JS" (all truthy → last)
+console.log(0 && "Hello");// Output: 0 (first falsy)
+console.log("Hi" && "" && "Bye");// Output: ""
+console.log("User" && "LoggedIn" && 1);//Output: 1
+
+//Real-world example:
+isLoggedIn && showDashboard();
+If isLoggedIn is falsy → function won’t run.
+
