@@ -81,3 +81,11 @@ if (value) {
   console.log("Falsy");
 }
 // Output: "Falsy"
+
+
+
+//   ********     || vs ??   ******** 
+let count = 0;
+
+console.log(count || 5); // 5 
+console.log(count ?? 5); // 0 
