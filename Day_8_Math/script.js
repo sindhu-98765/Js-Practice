@@ -30,6 +30,15 @@ console.log(Math.exp(2)); // output: 7.3890560989306495 (e raised to the power o
 console.log(Math.floor(Math.random() * 6) + 1); // output: random integer between 1 and 6 (simulating a dice roll)
  
 
+//Real world example:
+// dice roll game
+console.log(Math.floor(Math.random() * 6) + 1); // output: random integer between 1 and 6 (simulating a dice roll)
+ 
+//BILL
+let price = 499.75;
+let finalPrice = Math.round(price);
+console.log(`Final Price: $${finalPrice}`);//output: 500
+
 
 
 
@@ -37,3 +46,4 @@ console.log(Math.floor(Math.random() * 6) + 1); // output: random integer betwee
 
 
              
+
