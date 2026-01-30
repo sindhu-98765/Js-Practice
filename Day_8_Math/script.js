@@ -36,19 +36,4 @@ console.log(Math.floor(Math.random() * 6) + 1); // output: random integer betwee
 
 
 
-
- 
-    console.log("Math.PI:", Math.PI); // output: 3.141592653589793 (value of Pi)
-    console.log("Math.E:", Math.E);   // output: 2.718281828459045 (Euler's number)
-    console.log("Math.sqrt(16):", Math.sqrt(16)); // output: 4 (square root of 16)
-    console.log("Math.pow(2, 3):", Math.pow(2, 3)); //output: 8 (2 raised to the power of 3)
-    console.log("Math.abs(-5):", Math.abs(-5)); // output: 5 (absolute value of -5)
-    console.log("Math.ceil(4.2):", Math.ceil(4.2)); // output: 5 (rounds up to nearest integer)
-    console.log("Math.floor(4.7):", Math.floor(4.7)); // output: 4 (rounds down to nearest integer)     
-    console.log("Math.round(4.5):", Math.round(4.5)); // output: 5 (rounds to nearest integer)
-    console.log("Math.max(1, 3, 2):", Math.max(1, 3, 2)); // output: 3 (maximum value)
-    console.log("Math.min(1, 3, 2):", Math.min(1, 3, 2)); // output: 1 (minimum value)
-    console.log("Math.random():", Math.random()); // output: random number between 0 and 1
-    console.log("Math.sin(Math.PI / 2):", Math.sin(Math.PI / 2)); // output: 1 (sine of 90 degrees)
-    console.log("Math.cos(0):", Math.cos(0)); // output: 1 (cosine of 0 degrees)
-    co                    
+             
