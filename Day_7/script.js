@@ -89,3 +89,15 @@ let count = 0;
 
 console.log(count || 5); // 5 
 console.log(count ?? 5); // 0 
+
+// Combined examples
+console.log("JS" && 0 && "React");// 0
+console.log("Hello" && 42); // 42
+console.log(null && "Hello");// null
+console.log("World" && "JavaScript"); // "JavaScript"
+console.log(false || null || "");// ""
+console.log("First" && "Second" && "Third"); // "Third"
+console.log(undefined ?? "Default");// "Default"
+console.log("Value" && 100 && true); // true
+let isAdmin = true;
+isAdmin && console.log("Access granted");// Output: "Access granted"
