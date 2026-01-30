@@ -1,4 +1,4 @@
-           // OR (||) operator
+           // 1).OR (||) operator
 
  //Returns the first truthy value 
 // of alla res falsy values,then return the last falsy value.
@@ -41,8 +41,8 @@ let userName = user || "Guest";
 console.log(`Welcome ${userName}`); // Output: "Welcome Guest"
 
 
-            && (AND) OPERATOR
-Rule (mirror of ||)
+//          2).  && (AND) OPERATOR
+//Rule (mirror of ||)
 
 //Returns the first falsy value
 // If all are truthy, returns the last value
@@ -53,7 +53,31 @@ console.log(0 && "Hello");// Output: 0 (first falsy)
 console.log("Hi" && "" && "Bye");// Output: ""
 console.log("User" && "LoggedIn" && 1);//Output: 1
 
+
+
 //Real-world example:
 isLoggedIn && showDashboard();
 If isLoggedIn is falsy → function won’t run.
 
+
+//        3).   ?? (Nullish Coalescing)
+
+//Returns right value only if left is null or undefined
+// Does NOT treat 0, "", false as empty
+
+//Examples:
+console.log(0 ?? 10);        // 0
+console.log("" ?? "Text");  // ""
+console.log(null ?? 5);     // 5
+console.log(undefined ?? 7);// 7
+
+// This fixes the || bug.
+
+//   4).Truthy/Falsy in if
+let value = "";
+if (value) {
+  console.log("Truthy");
+} else {
+  console.log("Falsy");
+}
+// Output: "Falsy"
