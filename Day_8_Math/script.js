@@ -25,13 +25,13 @@ console.log(Math.log(Math.E)); // output: 1 (natural logarithm of e)
 console.log(Math.exp(2)); // output: 7.3890560989306495 (e raised to the power of 2)
 
 
-//Real world example:
 
-console.log(Math.floor(Math.random() * 6) + 1); // output: random integer between 1 and 6 (simulating a dice roll)
  
 
 //Real world example:
 // dice roll game
+let value = Math.floor(Math.random()*6)
+console.log(value+1)
 console.log(Math.floor(Math.random() * 6) + 1); // output: random integer between 1 and 6 (simulating a dice roll)
  
 //BILL
@@ -46,4 +46,5 @@ console.log(`Final Price: $${finalPrice}`);//output: 500
 
 
              
+
 
